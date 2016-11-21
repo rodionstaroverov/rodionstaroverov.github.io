@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>rodion staroverov</title>
-	<style>
-		body {
-			background: linear-gradient(to left, #556270, #FF6B6B);
-			background: -moz-linear-gradient(to left, #556270, #FF6B6B);
-			background: -webkit-gradient(to left, #556270, #FF6B6B);		
-		}
-		span {
-			letter-spacing: 15px;
-			font-family: monospace;
-			color: #fffafa;
-			font-size: 50px;
-			text-align: center;
-			width: 280px;
-			position: absolute;
-			top: 150px;
-			float: right;
-			right: 100px;			
-			display: block;
-			background-color: black;
-		}
-		span:hover {cursor: pointer;}
-		span::selection {color:black;}
-	</style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+
+	<title>personal website</title>
 </head>
 <body>
-	<span>hello.</span>
+	
+	<div class="main-container">
+		
+		<header>
+			<!-- LOGO -->
+			<span class="name">Rodion Staroverov</span> 
+
+			<!-- NAVIGATION -->
+			<nav>
+				<a class="active-page">/home</a>
+				<a href="#">portfolio</a>
+				<a href="#">skills</a>
+				<a href="#">contacts</a>
+			</nav>
+		</header>
+		<br />
+
+		<!-- VIDEO -->
+		<iframe src="https://player.vimeo.com/video/94667283" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+	</div>
 </body>
 </html>
